@@ -12,4 +12,9 @@ public class Song {
         this.songArtist = artist;
         this.songLength = length;
     }
+
+    public Song(String filePath, String title) {
+        this.filePath = filePath;
+        this.songTitle = title;
+    }
 }
